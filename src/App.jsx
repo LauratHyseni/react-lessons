@@ -3,7 +3,7 @@ const students = [
   {
     id: 1,
     name: "student 1"
-    
+
   },
   {
     id: 2,
@@ -12,7 +12,12 @@ const students = [
   {
     id: 3,
     name: "student 3"
+  },
+  {
+    id: 4,
+    name: "student 4"
   }
+
 ];
 function App() {
   
