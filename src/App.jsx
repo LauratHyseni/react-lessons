@@ -1,12 +1,14 @@
-
+const technologies = ["react", "js",  "html"];
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
-    <>
-      <h1>list</h1>
-    </>
+    <div>
+     {
+      technologies.map((technology) => <p key={technology}>{technology}</p>)
+     }
+    </div>
   )
 }
 
-export default App
+export default App;
